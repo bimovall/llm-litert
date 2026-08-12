@@ -1,4 +1,4 @@
-package com.example.litert.tokenization
+package com.apps.starter.tokenization
 
 internal val byteEncoder: Map<Int, String> by lazy {
     hashMapOf<Int, String>().apply {

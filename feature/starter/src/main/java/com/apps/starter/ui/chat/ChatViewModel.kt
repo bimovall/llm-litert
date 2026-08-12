@@ -1,12 +1,12 @@
-package com.example.litert.ui.chat
+package com.apps.starter.ui.chat
 
 import android.content.res.AssetFileDescriptor
 import android.content.res.AssetManager
 import android.util.JsonReader
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.litert.tokenization.GPT2Tokenizer
-import com.example.litert.ui.chat.model.Chat
+import com.apps.starter.tokenization.GPT2Tokenizer
+import com.apps.starter.ui.chat.model.Chat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.ensureActive

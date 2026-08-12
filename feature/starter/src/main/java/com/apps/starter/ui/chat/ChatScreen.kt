@@ -1,4 +1,4 @@
-package com.example.litert.ui.chat
+package com.apps.starter.ui.chat
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

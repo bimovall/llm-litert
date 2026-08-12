@@ -9,7 +9,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.litert.ui.chat.ChatScreen
+import com.apps.starter.ui.chat.ChatScreen
 import com.example.litert.ui.theme.LiteRtTheme
 
 class MainActivity : ComponentActivity() {

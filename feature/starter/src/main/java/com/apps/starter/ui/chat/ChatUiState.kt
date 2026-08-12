@@ -1,6 +1,6 @@
-package com.example.litert.ui.chat
+package com.apps.starter.ui.chat
 
-import com.example.litert.ui.chat.model.Chat
+import com.apps.starter.ui.chat.model.Chat
 
 sealed class ChatUiState {
 

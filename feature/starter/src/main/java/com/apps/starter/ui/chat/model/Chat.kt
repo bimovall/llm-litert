@@ -1,4 +1,4 @@
-package com.example.litert.ui.chat.model
+package com.apps.starter.ui.chat.model
 
 data class Chat(
     val text: String,

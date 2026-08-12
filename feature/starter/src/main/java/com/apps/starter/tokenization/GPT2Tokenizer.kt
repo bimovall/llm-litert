@@ -1,4 +1,4 @@
-package com.example.litert.tokenization
+package com.apps.starter.tokenization
 
 class GPT2Tokenizer(
     val encoder: Map<String, Int>,
