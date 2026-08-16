@@ -23,3 +23,4 @@ rootProject.name = "LiteRt"
 include(":app")
 include(":feature")
 include(":feature:starter")
+include(":feature:litertlm")
