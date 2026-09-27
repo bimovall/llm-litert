@@ -70,6 +70,7 @@ dependencies {
     ksp(libs.hilt.compiler)
 
     implementation(project(":feature:starter"))
+    implementation(project(":feature:litertlm"))
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

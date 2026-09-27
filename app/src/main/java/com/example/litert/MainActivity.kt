@@ -9,6 +9,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.apps.litertlm.presentation.prompt.PromptScreen
 import com.apps.starter.ui.chat.ChatScreen
 import com.example.litert.ui.theme.LiteRtTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -21,11 +22,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             LiteRtTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ChatScreen(
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                PromptScreen()
             }
         }
     }
@@ -35,6 +32,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     LiteRtTheme {
-        ChatScreen()
+        PromptScreen()
     }
 }
